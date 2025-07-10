@@ -1,15 +1,15 @@
-# Smart Playground Monitor 🏟️👥
+# Smart Playground Monitor
 
 A real-time people counting system that tracks visitors entering/exiting playgrounds and maintains daily logs.
 
-## Features ✨
+## Features
 - Live video streaming with people counting
 - Upload and process recorded videos
 - Daily visitor count tracking
 - Peak crowd detection
 - Simple web interface
 
-## Technology Stack 🛠️
+## Technology Stack
 ### Frontend
 - **Framework**: React.js
 - **Styling**: Tailwind CSS
@@ -23,13 +23,13 @@ A real-time people counting system that tracks visitors entering/exiting playgro
 - **Database**: SQLite
 - **API Documentation**: Automatic Swagger UI
 
-## Prerequisites 📋
+## Prerequisites
 - Python 3.8+
 - Node.js 16+
 - npm/yarn
 - Webcam (for live counting)
 
-## Installation Guide 🛠️
+## Installation Guide
 
 ### Backend Setup
 1. Navigate to backend folder:
@@ -62,7 +62,7 @@ A real-time people counting system that tracks visitors entering/exiting playgro
     ```bash
     npm install
     ```
-## Running the Application 🚀
+## Running the Application
 ### Start Backend Servers
     cd backend
     uvicorn app.main:app --reload
@@ -74,7 +74,7 @@ A real-time people counting system that tracks visitors entering/exiting playgro
     npm run dev
 - Frontend will run at: http://localhost:5173
 
-## How to Use 📖
+## How to Use
 ### Live People Counting
 1. Click "Start Live Counting" to begin webcam feed
 2. System will automatically count people crossing center line
@@ -89,13 +89,14 @@ A real-time people counting system that tracks visitors entering/exiting playgro
 1. **Today's Log:** Shows current day's peak count
 2. **All Logs:** Displays historical data
 
-## Troubleshooting ⚠️
+## Troubleshooting
 - **Webcam not working:** Check camera permissions
 - **Stream errors:** Ensure no other app is using camera
 - **Installation issues:** Verify Python and Node versions
 
-## Future Improvements 🔮
-- Add user authentication
+## Future Improvements
+- Message alert before the playground closes
 - Implement crowd density alerts
 - Support multiple camera feeds
+- Add user authentication
 - Mobile app integration

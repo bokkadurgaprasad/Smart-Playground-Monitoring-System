@@ -31,7 +31,7 @@ class VideoCounter:
                 cv2.imshow("Processing Video", processed_frame)
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
-            
+            save_peak_count_to_db(self.processor.presence_count)
             return self.processor.presence_count
         finally:
             cap.release()

@@ -1,6 +1,7 @@
 import cv2
 from .centriod_tracker import CentroidTracker
 
+
 class VideoProcessor:
     def __init__(self):
         self.hog = cv2.HOGDescriptor()
